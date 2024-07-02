@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    background-color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+    font-family: Quicksand;
+
+}
+.product-img{
+    height: 450px;
+    width: 425px;
+    object-fit: cover;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 5%;
+    border: 2px solid black;
+    box-shadow: 0 0 10px 0 #FFD0D0;
+    cursor: pointer;
+}
+.main{
+    background-image: url(https://wallpapercave.com/wp/wp3469892.jpg);
+    height: 600px;
+    width: 1005px;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.img-slider{
+    margin-top: -150px;
+    margin-left: 325px;
+}
+.slider-img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;   
+}
+.product-info {
+    max-width: 400px;
+   margin-left: 40px;
+}
+.product-title{
+    display: flex;
+    font-family:Quicksand ;
+    
+}
+p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.add-to-cart{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 150px;
+    border: 0px;
+}
+.add-to-cart:hover{
+    background-color: gray;
+}
+.main:hover{
+    border: 1px solid black;
+}
+.slider-img:hover{
+    border: 1px solid gold;
+
+}
+
+
+
+
+
